@@ -18,8 +18,8 @@ layout: default
          <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
       </div>
       {% endif %}
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"></a>
       <span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"></a>
           <header>
             <h1>
               
@@ -37,8 +37,8 @@ layout: default
               {{ site.theme_settings.str_continue_reading }}
             </a>-->
           </div>
+        </a>
       </span>
-    </a>
     </div>
     {% endfor %}
   </div>
