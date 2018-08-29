@@ -18,12 +18,13 @@ layout: default
          <img src="{{ site.baseurl }}/{{ post.thumbnail }}">
       </div>
       {% endif %}
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"></a>
       <span>
           <header>
             <h1>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              
                 {{ post.title }}
-              </a>
+              
             </h1>
             <p class="meta">
               {{ post.date | date: "%B %-d, %Y" }}
@@ -37,6 +38,7 @@ layout: default
             </a>-->
           </div>
       </span>
+    </a>
     </div>
     {% endfor %}
   </div>
