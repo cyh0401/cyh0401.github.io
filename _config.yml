@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><h1>기술 블로그</h1><br><br>Little by little one goes far.</p>
+     <p><h1>Technology Blog</h1><br>Little by little one goes far.</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    © 2018 Cheon Yong hyeon
