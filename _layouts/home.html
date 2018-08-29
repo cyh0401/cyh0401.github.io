@@ -19,12 +19,11 @@ layout: default
       </div>
       {% endif %}
       <span>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"></a>
           <header>
             <h1>
-              
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"></a>
                 {{ post.title }}
-              
+              </a>
             </h1>
             <p class="meta">
               {{ post.date | date: "%B %-d, %Y" }}
@@ -37,7 +36,6 @@ layout: default
               {{ site.theme_settings.str_continue_reading }}
             </a>-->
           </div>
-        </a>
       </span>
     </div>
     {% endfor %}
